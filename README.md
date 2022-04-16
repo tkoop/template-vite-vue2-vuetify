@@ -1,15 +1,16 @@
 # template-vite-vue2-vuetify
 
-`Vite + Vue 2 + Vuex + Vue Router + Vuetify`
+`Vite + Vue 2 + Vuex + Vue Router + Vuetify` using npm
 
-## Start
-
-```bash
-npx degit slime7/template-vite-vue2-vuetify my-project
-```
+## To download and start using
 
 ```bash
-yarn dev # start dev server
-yarn build # build for production
-yarn serve # locally preview production build
+git clone https://github.com/tkoop/template-vite-vue2-vuetify.git my-project
+cd my-project
+npm ci  # This is like 'npm install', but only installs the specified versions
+
+npm run dev # Start dev server. Browse to it at http://localhost:8080
+
+npm run build # Build for production
+npm run serve # Locally preview production build
 ```
